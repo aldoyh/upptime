@@ -1,18 +1,18 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: aldoyh
+repo: upptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
+  - name: Ministry of Information وزارة الإعلام
+    url: https://www.mia.gov.bh
+  - name: إذاعة البحرين
+    url: https://www.live.bh
+  - name: وكالة أنباء البحرين
+    url: https://www.bna.bh
+  - name: Bahrain البحرين
+    url: https://www.bahrain.com
+  - name: السارية
+    url: https://www.alsarya.tv
     port: 80
     check: "tcp-ping"
     ipv6: true
@@ -20,7 +20,7 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.adhari.com
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
